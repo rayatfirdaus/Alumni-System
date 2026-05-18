@@ -1,0 +1,16 @@
+{
+  "name": "alumni-system",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayatfirdaus/Alumni-System.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
