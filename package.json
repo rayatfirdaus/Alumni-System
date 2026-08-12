@@ -2,7 +2,9 @@
   "name": "alumni-system",
   "version": "1.0.0",
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "dev": "npm run dev --workspaces",
     "build": "npm run build --workspaces"
@@ -12,5 +14,9 @@
     "url": "git+https://github.com/rayatfirdaus/Alumni-System.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "pg": "^8.22.0"
+  }
 }
