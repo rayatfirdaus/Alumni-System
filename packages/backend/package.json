@@ -3,7 +3,15 @@
     "version": "1.0.0",
     "private": true,
     "type": "module",
+    "scripts": {
+    "dev": "tsx src/dal/config/db.ts"
+},
     "dependencies": {
-      "@alumni/businesslogic": "*"
+        "dotenv": "^17.4.2",
+        "pg": "^8.22.0"
+    },
+    "devDependencies": {
+        "@types/pg": "^8.x.x",
+        "tsx": "^4.x.x"
     }
-  }
+}
