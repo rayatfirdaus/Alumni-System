@@ -4,14 +4,15 @@
     "private": true,
     "type": "module",
     "scripts": {
-    "dev": "tsx src/dal/config/db.ts"
-},
+        "dev": "tsx src/dal/config/db.ts"
+    },
     "dependencies": {
         "dotenv": "^17.4.2",
         "pg": "^8.22.0"
     },
     "devDependencies": {
         "@types/pg": "^8.x.x",
+        "ts-node": "^10.9.2",
         "tsx": "^4.x.x"
     }
 }
