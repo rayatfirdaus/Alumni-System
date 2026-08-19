@@ -1,5 +1,5 @@
-import pool from "../config/db";
-import { AlumniDTO } from "../dto/AlumniDTO";
+import pool from "../config/db.js";
+import { AlumniDTO } from "../dto/AlumniDTO.js";
 
 export class AlumniQuery {
     constructor() {}
