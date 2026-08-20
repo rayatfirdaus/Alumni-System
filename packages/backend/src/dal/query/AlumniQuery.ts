@@ -37,7 +37,7 @@ export class AlumniQuery {
     public async updateAlumni (id:number,
         alumni: Partial<AlumniDTO>) : Promise<AlumniDTO> {
             const info = await pool.query(
-                "UPDATE alumni_profile SET department = $1, graduation_year = $2, current_company = $3, job_title = $4, experienece_years = $5, bio = $6, linkedin_url = $7, updated_at = NOW() WHERE id = $8 RETURNING *",
+                "UPDATE alumni_profile SET department = $1, graduation_year = $2, current_company = $3, job_title = $4, experience_years = $5, bio = $6, linkedin_url = $7, updated_at = NOW() WHERE id = $8 RETURNING *",
                 [
                     alumni.department,
                     alumni.graduation_year,
